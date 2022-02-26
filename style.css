@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+/* -----------------------navbar start ------------------------------------- */
+.navbar_background{
+  background: -webkit-linear-gradient(left, #00A1FF, #57A8CC, #AAD3E5);
+
+}
+
+.navbar_background a{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+a i{
+    color: rgb(46, 45, 45);
+    margin-right: 5px;
+}
+
+.nav-link i{
+  font-size: 16px;
+
+}
+/* -----------------------navbar end ------------------------------------- */
+
+/* -------------------------login and form start----------------------------------- */
+
+  .container{
+    background: #fff;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+
+  .container .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .container form .data, .container form .text_data{
+    height: 45px;
+    width: 100%;
+    margin: 60px 0;
+  }
+
+  .container form .text_data{
+    height: 160px;
+  }
+
+  .check_radio{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  }
+
+  form .data label, form .data_checkbox label{
+    font-size: 18px;
+  }
+  
+  .form-check label{
+      font-size: 15px !important;
+  }
+
+  form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+  }
+
+  form .data select{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+  }
+
+  form .text_data textarea{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+  }
+
+  form .data input:focus,  form .text_data textarea:focus{
+    border-color: #3498db;
+    border-bottom-width: 2px;
+  }
+
+.main_login{
+  background: -webkit-linear-gradient(right, #00A1FF, #57A8CC, #AAD3E5);
+  transition: all 0.4s;
+  margin: 30px 0;
+  height: 45px;
+  width: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+/* -------------------------login and form start----------------------------------- */
+
+
+
+  /* ----------table-------------- */
+
+.main_table{
+    overflow-x: auto;
+}
+
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #3498db;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3498db;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+/* ------------------------------index page-------------------- */
+
+.main_index_div{
+  background-color: rgb(235, 235, 235);
+}
+
+.col_div{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  margin: 15px 10px 15px 0;
+  background-color: #fff;
+}
+
+.main-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.stop_div p{
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.route_div, .route_div1, .time_div{
+  font-size: 13px;
+}
+
+.route_div i{
+  color: #3498db;
+  border-radius: 100px;
+  padding: 2px;
+}
+
+.route_div1 i{
+  color: #d61e1e;
+}
+
+.search_vehicle .form-control{
+  border: none;
+}
+
+.vehicle_div p{
+margin-top: 7px;
+}
+
+.vehicle_div i{
+  color: #3498db;
+}
+  
+.vehicle_div2 i{
+    color: #d61e1e;
+}
+
+.route_search, .map_dropdown{
+  border-bottom: 1px solid grey;
+}
+
+.route_search .form-control, .map_dropdown .form-control, .stop_dropdown .form-control{
+  border: none;
+}
+
+.dropdown-toggle{
+  border: none;
+  background-color: #fff;
+  margin-top: 10px;
+  color: grey;
+}
+
+.dropdown-menu{
+  padding: 20px;
+    width: 280px;
+    position: absolute;
+    transform: translate3d(-250px, 34px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
